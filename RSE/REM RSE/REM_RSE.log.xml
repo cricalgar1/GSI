@@ -1,0 +1,2100 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<rem:log xmlns:rem="http://rem.lsi.us.es">
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0008] Enlace a Colabora desde Gastos con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0002] ¡Ayuda urgente! con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0003] Compartir en redes con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Documento de Requisitos del Sistema] -> [Documento de Requisitos del Sistema DMS]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0005] Menu con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0009] Botón adoptado con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0004] Adoptar con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0010] Actores con 2 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001] Slider de animales que buscan hogar con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0001] Miembros de RedAS con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0002] Usuarios/Internautas con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0015] Glosario de términos con 3 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0007] Botón transporte solidario con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0006] Botón colabora con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0011] Requisitos de Interfaz de Usuario con 1 hijos y 9 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización cliente [ORG-0001] RedAS]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0002] Grupo 5 GSI]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0002] Copias de seguridad con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0005] Casas de acogida con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0019] PopUp con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0012] Autopublicación en redes con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0020] Botón adoptado con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0011] Destacados con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0001] WordPress con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0012] Requisitos Funcionales con 10 hijos y 2 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0003] Extractos del banco con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0016] Botón adoptar con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0011]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0003] Catpcha con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0014] Número de fotos del slider con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0004] RedAS con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0002] Aumento de casas de acogida con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0013] Contacta con nosotros con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0003] Proyecto con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0017] Botón colabora con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0010] Contratos de adopciones con 0 hijos y 4 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0003] Aumento de las donaciones con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0018] Botón transporte solidario con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0013] Requistos No Funcionales con 3 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0004] Fotografías con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0015] Evento del slider con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0007] Catálogo de Requisitos del Sistema con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0017] Copia de Requisitos de Información con 4 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0007] Copia de Extractos del banco con ingresos con 2 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0005] Tipos de usuario con 4 hijos y 5 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0006] Tipos de grupos según permisos con 4 hijos y 5 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0006] Copia de Facturas con 4 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0008] Copia de Fotografías con 2 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0003] Riesgo de poca actividad con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0005] Copia de Contratos de adopciones con 4 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0005]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Documento de Requisitos del Sistema DMS] -> [Documento de Requisitos RSI]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0005] Usuario con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0003] Tesorera con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0004]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0004] Fotografías con 2 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0002]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [STK-0008]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0005]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0005]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0002] Permisos con 4 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>11</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0008] Amenazas con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0005] Descripción del Sistema Actual con 2 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0002] Mejora comunicación con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0006] Objetivos del Sistema con 1 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0001] Gestión de la documentación con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0010] Introducción drivers con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0002] Sistema Actual con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0007] Oportunidades con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0018] Análisis DAFO Completo con 4 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0005] Fortalezas con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0020] Principales drivers con 2 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0006] Debilidades con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0021] Drivers con 1 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0003] Ingresos con 2 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0012] Fichas de adopción con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001] Adoptar con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0004] Contrato de adopciones con 4 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0001] Introducción con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0004] Visión con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0009] Descripción del proyecto con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0001] Introducción con 2 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0030] Requisitos de Integración con otros sistemas con 1 hijos y 3 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0004] Copia de El sistema debería compartir información con el portal de la asignatura con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0028]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0017] Misión y Visión del sistema con 2 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0010]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0022] Principales riesgos con 1 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0019] Descripción del proyecto con 1 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0003] Misión con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0002] Riesgo de poca actividad con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0012] [Fichas de adopción] con 0 hijos y 2 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0005] Eventos con 4 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0003] Hacer llegar información a más personas  con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0002] Donación con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0001] Sistema operativo con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0001] Progreso de los animales con 5 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0002] Petición de adopción con 5 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Documento de Requisitos RSI] -> [Documento de Requisitos RSE]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0026] Casos de uso con 2 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+</rem:log>

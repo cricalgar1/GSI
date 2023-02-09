@@ -1,0 +1,2217 @@
+<html xmlns:rem="http://rem.lsi.us.es">
+<head>
+<title>Proyecto REM_RSI</title>
+<style type="text/css">
+<!--
+            body {
+                font-family: arial,verdana;
+                font-size: 10pt;
+                text-align: justify
+            }
+
+            h1 { font-size: 14pt }
+            h2 { font-size: 13pt }
+            h3 { font-size: 12pt }
+            h4 { font-size: 11pt }
+            h5 { font-size: 10pt }
+            h6 { font-size: 10pt }
+
+            h1.cover { font-size: 20pt }
+
+            tr { font-size: 10pt }
+
+            table { border: black solid; }
+            table.TOC { border: none; }
+            ul {
+                margin-top:    0pt;
+                margin-bottom: 0pt;
+                margin-left:   12pt
+            }
+        -->
+</style>
+</head>
+<body>
+<center>
+<h3>Proyecto REM_RSI</h3>
+<p />
+<h1 class="cover">Documento de Requisitos RSI</h1>
+<p />
+<h3>Versión 1.0</h3>
+<h3>Fecha 27/11/2022</h3>
+<p />
+<h3>Preparado para:</h3>
+<a href="#ORG-0001" title="RedAS">
+<p>
+RedAS</p>
+</a>
+<p />
+<h3>Preparado por:</h3>
+<a href="#ORG-0002" title="Grupo 5 GSI">
+<p>
+Grupo 5 GSI</p>
+</a>
+<p />
+</center>
+<hr size="4" />
+<p />
+<h1 align="left">Índice</h1>
+<p />
+<table border="0" width="100%" class="TOC">
+<tr>
+<th align="left" valign="top">1 </th>
+<th align="left" valign="top" width="100%" colspan="3">
+<a href="#SEC-0015">
+Caso de Negocio - redAS</a>
+</th>
+</tr>
+<tr><td />
+<td align="left" valign="top">1.1 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0001">
+Introducción</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">1.1.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0017"> Misión y Visión del sistema</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">1.2 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0005">
+Descripción del Sistema Actual</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">1.2.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0018">
+Análisis DAFO Completo</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">1.3 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0019">
+Descripción del proyecto</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">1.4 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0020">
+Principales drivers</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">1.4.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0021">
+Drivers</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">1.5 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0006">
+Objetivos de negocio</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">1.6 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0022">
+Principales riesgos</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">1.7 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0002">
+Participantes en el Proyecto</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">1.7.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0004">
+Personas</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">1.7.2 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0003">
+Organizaciones</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">2 </th>
+<th align="left" valign="top" width="100%" colspan="3">
+<a href="#SEC-0016">
+Requisitos del sistema Software</a>
+</th>
+</tr>
+<tr><td />
+<td align="left" valign="top">2.1 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0008">
+Requisitos de Información</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">2.2 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0023">
+Requisitos Funcionales</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">2.2.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0024">
+Actores</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">2.2.2 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0009">
+Requisitos Funcionales</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">2.2.3 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0025">
+Requisitos No Funcionales</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">2.3 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0014">
+Reglas de Negocio</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">2.4 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0026">
+Casos de uso</a>
+</td>
+</tr>
+</table>
+<p />
+<hr size="4" />
+<p />
+<a name="SEC-0015" />
+<h1 align="left">1 
+Caso de Negocio - redAS</h1><a name="SEC-0001" />
+<h2 align="left">1.1 
+Introducción</h2><a name="PRG-0001" />
+<p>El proyecto pretende mejorar la comunicación entre los directivos, empleados y colaboradores de la asociación, a la vez que agilizar el trabajo colaborativo que deben llevar a cabo.</p>
+<a name="SEC-0017" />
+<h3 align="left">1.1.1  Misión y Visión del sistema</h3><a name="GLO-0003" />
+<p align="left">
+<b> Misión:</b> Fomentar e informar sobre las adopciones.</p>
+<a name="GLO-0004" />
+<p align="left">
+<b> Visión:</b> Que cada vez más personas se interesen por las adopciones y los animales en adopción.</p>
+<a name="SEC-0005" />
+<h2 align="left">1.2 
+Descripción del Sistema Actual</h2><a name="PRG-0002" />
+<p>Actualmente la asociación RedAS realiza toda funcionalidad o rellenado de documentos de forma manual.</p>
+<a name="SEC-0018" />
+<h3 align="left">1.2.1 
+Análisis DAFO Completo</h3><a name="GLO-0005" />
+<p align="left">
+<b> Fortalezas:</b>
+<br />- Los miembros de la asociación son gente joven familiarizada con las nuevas tecnologías.
+<br />- La asociación cuenta con trabajdores muy entregados y enfocados en la difusión de la adopción. </p>
+<a name="GLO-0006" />
+<p align="left">
+<b> Debilidades:</b>
+<br />- Poco personal y mala localización. </p>
+<a name="GLO-0007" />
+<p align="left">
+<b> Oportunidades:</b>
+<br />- Sin captaciones de miembros, aceptando a todo miembro que quiera unirse a la asociación.
+<br />- Meotodología de trabajo basada en el esfuerzo, la difusión y el bien del animal. </p>
+<a name="GLO-0008" />
+<p align="left">
+<b> Amenazas:</b>
+<br />- Bajo nivel de difusión y poco conocimiento social de la asociación.  </p>
+<a name="SEC-0019" />
+<h2 align="left">1.3 
+Descripción del proyecto</h2><a name="PRG-0009" />
+<p>El proyecto consiste en la elaboración y puesta en funcionamiento de una red social interna para la asociación donde todos los participantes podrán estar en contacto para coordinarse y optimizar su trabajo.
+<br />
+</p>
+<a name="SEC-0020" />
+<h2 align="left">1.4 
+Principales drivers</h2><a name="PRG-0010" />
+<p>Los drivers que motivan el proyecto son los siguientes:</p>
+<a name="SEC-0021" />
+<h3 align="left">1.4.1 
+Drivers</h3><a name="OBJ-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0002</th>
+<th align="left" valign="top" width="100%">
+Mejora comunicación</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+mejorar la comunicación interna entre los empleados de las asociación, para de esta forma, aumentar la calidad de trabajo y mejorar la coordinación de los trabajos.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0006" />
+<h2 align="left">1.5 
+Objetivos de negocio</h2><a name="OBJ-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0001</th>
+<th align="left" valign="top" width="100%">
+Mejora comunicación</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+mejorar la comunicación interna entre los directivos, empleados y colaboradores, para de esta forma aumentar la calidad de trabajo.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="OBJ-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0003</th>
+<th align="left" valign="top" width="100%">
+Mejora de la productividad de los grupos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir la creación de espacios de trabajos para los grupos de la asociación. Esto permitirá centralizar toda la actividad de un grupo y agilizar su trabajo.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0022" />
+<h2 align="left">1.6 
+Principales riesgos</h2><a name="NFR-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">NFR-0002</th>
+<th align="left" valign="top" width="100%">
+Riesgo de poca actividad</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+abordar el fomento del uso pues uno de los principales riesgos del sistema es la poca actividad y poco uso de la plataforma.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0002" />
+<h2 align="left">1.7 
+Participantes en el Proyecto</h2><a name="SEC-0004" />
+<h3 align="left">1.7.1 
+Personas</h3><a name="STK-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Participante</th>
+<th align="left" valign="top" width="100%">
+María Jiménez</th>
+</tr>
+<tr><th align="left" valign="top">Organización</th>
+<td align="left" valign="top">
+<a href="#ORG-0001">
+RedAS</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Rol</th>
+<td align="left" valign="top" colspan="1">Tesorera</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Es desarrollador</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Es cliente</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr><th align="left" valign="top">Es usuario</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Participante</th>
+<th align="left" valign="top" width="100%">
+María de la Fuente</th>
+</tr>
+<tr><th align="left" valign="top">Organización</th>
+<td align="left" valign="top">
+<a href="#ORG-0001">
+RedAS</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Rol</th>
+<td align="left" valign="top" colspan="1">Vicepresidenta</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Es desarrollador</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Es cliente</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr><th align="left" valign="top">Es usuario</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Participante</th>
+<th align="left" valign="top" width="100%">
+Cristina Calderón García</th>
+</tr>
+<tr><th align="left" valign="top">Organización</th>
+<td align="left" valign="top">
+<a href="#ORG-0002">
+Grupo 5 GSI</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Rol</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Es desarrollador</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr><th align="left" valign="top">Es cliente</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Es usuario</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Participante</th>
+<th align="left" valign="top" width="100%">
+Blanca García Alonso</th>
+</tr>
+<tr><th align="left" valign="top">Organización</th>
+<td align="left" valign="top">
+<a href="#ORG-0002">
+Grupo 5 GSI</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Rol</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Es desarrollador</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr><th align="left" valign="top">Es cliente</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Es usuario</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0005" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Participante</th>
+<th align="left" valign="top" width="100%">
+Ana Chávez Velasco</th>
+</tr>
+<tr><th align="left" valign="top">Organización</th>
+<td align="left" valign="top">
+<a href="#ORG-0002">
+Grupo 5 GSI</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Rol</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Es desarrollador</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr><th align="left" valign="top">Es cliente</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Es usuario</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0006" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Participante</th>
+<th align="left" valign="top" width="100%">
+Antonio Jiménez Muñoz</th>
+</tr>
+<tr><th align="left" valign="top">Organización</th>
+<td align="left" valign="top">
+<a href="#ORG-0002">
+Grupo 5 GSI</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Rol</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Es desarrollador</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr><th align="left" valign="top">Es cliente</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Es usuario</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0007" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Participante</th>
+<th align="left" valign="top" width="100%">
+María Becerra</th>
+</tr>
+<tr><th align="left" valign="top">Organización</th>
+<td align="left" valign="top">
+<a href="#ORG-0001">
+RedAS</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Rol</th>
+<td align="left" valign="top" colspan="1">Presidenta</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Es desarrollador</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Es cliente</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr><th align="left" valign="top">Es usuario</th>
+<td align="left" valign="top">Sí</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0003" />
+<h3 align="left">1.7.2 
+Organizaciones</h3><a name="ORG-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Organización</th>
+<th align="left" valign="top" width="100%">
+RedAS</th>
+</tr>
+<tr>
+<th align="left" valign="top">Dirección</th>
+<td align="left" valign="top" colspan="1">Calle Falsa 123</td>
+</tr>
+<tr>
+<th align="left" valign="top">Teléfono</th>
+<td align="left" valign="top" colspan="1">555-1234</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fax</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ORG-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Organización</th>
+<th align="left" valign="top" width="100%">
+Grupo 5 GSI</th>
+</tr>
+<tr>
+<th align="left" valign="top">Dirección</th>
+<td align="left" valign="top" colspan="1">Av Reina Mercedes S/N</td>
+</tr>
+<tr>
+<th align="left" valign="top">Teléfono</th>
+<td align="left" valign="top" colspan="1">555-5678</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fax</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0016" />
+<h1 align="left">2 
+Requisitos del sistema Software</h1><a name="SEC-0008" />
+<h2 align="left">2.1 
+Requisitos de Información</h2><a name="IRQ-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0001</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Tipos de usuario</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá almacenar la información correspondiente a 
+<em>
+los usuarios que podrán clasificarse según los siguientes tipos.
+				</em>
+    En concreto:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Datos específicos</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0001" />
+Presidenta</li>
+<li>
+<a name="DAT-0002" />
+Tesorera
+<br />
+</li>
+<li>
+<a name="DAT-0016" />
+Colaboradores
+<br />
+</li>
+<li>
+<a name="DAT-0015" />
+Casa de acogida
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Tiempo de vida</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Ocurrencias simultáneas</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">media</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="IRQ-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0002</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Perfiles de usuario</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá almacenar la información correspondiente a 
+<em>
+los siguientes datos específicos de los perfiles de usuario.
+				</em>
+    En concreto:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Datos específicos</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0017" />
+Nombre y apellidos</li>
+<li>
+<a name="DAT-0018" />
+Teléfono</li>
+<li>
+<a name="DAT-0019" />
+E-mail</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Tiempo de vida</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Ocurrencias simultáneas</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="IRQ-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0003</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Tipos de grupo según permisos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá almacenar la información correspondiente a 
+<em>
+a los grupos según los permisos serán.
+				</em>
+    En concreto:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Datos específicos</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0021" />
+Grupo general con contenido accesible para cualquier usuario.</li>
+<li>
+<a name="DAT-0022" />
+Grupo contabilidad con contenido accesible por la tesorera y la presidenta.
+<br />
+</li>
+<li>
+<a name="DAT-0046" />
+Grupo adopciones con contenido accesible por los colaboradores y la presidenta.
+<br />
+</li>
+<li>
+<a name="DAT-0047" />
+Grupo acogida con contenido accesible por la casa de acogida y la presidenta.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Tiempo de vida</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Ocurrencias simultáneas</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0023" />
+<h2 align="left">2.2 
+Requisitos Funcionales</h2><a name="SEC-0024" />
+<h3 align="left">2.2.1 
+Actores</h3><a name="ACT-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">ACT-0001</th>
+<th align="left" valign="top" width="100%">
+Colaborador</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este actor representa
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ACT-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">ACT-0002</th>
+<th align="left" valign="top" width="100%">
+Casa de acogida</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este actor representa
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ACT-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">ACT-0003</th>
+<th align="left" valign="top" width="100%">
+Tesorera</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este actor representa
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ACT-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">ACT-0004</th>
+<th align="left" valign="top" width="100%">
+Presidenta</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este actor representa
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0009" />
+<h3 align="left">2.2.2 
+Requisitos Funcionales</h3><a name="FRQ-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0001</th>
+<th align="left" valign="top" width="100%">
+Moderación de registros</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir a los administradores añadir al sistema a los usuarios que ellos decidan.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0002</th>
+<th align="left" valign="top" width="100%">
+Herramientas en los grupos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 16/12/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+permitir seleccionar las herramientas a utilizar en cada grupo. Las herramientas disponibles deberán ser:
+<br />
+<br />-Tasks Planner and to Do
+<br />-PowerAutomate
+<br />-SharePoint
+<br />-Correo
+<br />-MS Forms</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0025" />
+<h3 align="left">2.2.3 
+Requisitos No Funcionales</h3><a name="NFR-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">NFR-0001</th>
+<th align="left" valign="top" width="100%">
+Sistema</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+funcionar en cualquier sistema con windows 10</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">pendiente de verificación</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">media</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0014" />
+<h2 align="left">2.3 
+Reglas de Negocio</h2><a name="CRQ-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">CRQ-0001</th>
+<th align="left" valign="top" width="100%">
+Presidenta/Vicepresidenta</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
+<em>
+Tendrá acceso a cualquier tipo de documento que haya en el servicio. Será la encargada de darle el visto bueno a los documentos subidos por la tesorera o los colaboradores (facturas y contratos)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="CRQ-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">CRQ-0002</th>
+<th align="left" valign="top" width="100%">
+Tesoreria</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
+<em>
+Solo tendrá acceso a las facturas y a los extractos bancarios.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="CRQ-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">CRQ-0003</th>
+<th align="left" valign="top" width="100%">
+Colaboradores</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
+<em>
+Solo tendrán acceso a la creación de contratos y a las fotografías</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0026" />
+<h2 align="left">2.4 
+Casos de uso</h2><a name="UC-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0001</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Progreso de los animales</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+Se notifica la llegada del animal o cambia su estado en la asociación</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0026" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+agregará a ' Pendiente de recogida ' al animal en caso de aviso de un animal en la calle
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0028" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+agregará a ' Recuperación ' al animal en caso de que necesite recuperación o ir al veterinario.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0029" />
+<td align="center" valign="top">3</td>
+<td>El
+     
+    sistema<em>
+agregará a ' Búsqueda de acogida ' al animal en caso de no necesitar recuperación y no tener hogar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0030" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+agregará a ' Búsqueda de hogar ' al animal en caso de tener casa de acogida.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0031" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+agregará a ' Adoptado ' al animal en caso de conseguir la adopción</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0002</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Petición de adopción</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 27/11/2022 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Cristina Calderón García</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+María Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+se reciba una solicitud de adopción.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0036" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa ">
+Colaborador (ACT-0001)
+    </a>
+<em>
+rellena formulario de adopción y sube el archivo del contrato.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0037" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+envía solicitud de aprobación al presidente.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0038" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0004" title="Este actor representa ">
+Presidenta (ACT-0004)
+    </a>
+<em>
+aprueba o rechaza la solicitud.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0041" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+se aprueba,
+                                </em>el
+     
+    sistema<em>
+escribe un mensaje de aprobación en canal de Teams específico y guarda el archivo del contrato en la ruta de aceptados</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0043" />
+<td align="center" valign="top">5</td>
+<td>Si<em>
+se rechaza ,
+                                </em>el
+     
+    sistema<em>
+se escribe mensaje de rechazo en canal de Teams específico  y guarda el archivo del contrato en la ruta de rechazados.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+</body>
+</html>

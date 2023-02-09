@@ -1,0 +1,2281 @@
+<html xmlns:rem="http://rem.lsi.us.es">
+<head>
+<title>Project REM-CMS</title>
+<style type="text/css">
+<!--
+            body {
+                font-family: arial,verdana;
+                font-size: 10pt;
+                text-align: justify
+            }
+
+            h1 { font-size: 14pt }
+            h2 { font-size: 13pt }
+            h3 { font-size: 12pt }
+            h4 { font-size: 11pt }
+            h5 { font-size: 10pt }
+            h6 { font-size: 10pt }
+
+            h1.cover { font-size: 20pt }
+
+            tr { font-size: 10pt }
+
+            table { border: black solid; }
+            table.TOC { border: none; }
+            ul {
+                margin-top:    0pt;
+                margin-bottom: 0pt;
+                margin-left:   12pt
+            }
+        -->
+</style>
+</head>
+<body>
+<center>
+<h3>Project REM-CMS</h3>
+<p />
+<h1 class="cover">Documento de Requisitos del Sistema</h1>
+<p />
+<h3>Version 1.0</h3>
+<h3>Date 03/10/2018</h3>
+<p />
+<h3>Prepared for:</h3>
+<a href="#ORG-0001" title="Asignatura GSI">
+<p>
+Asignatura GSI</p>
+</a>
+<p />
+<h3>Prepared by:</h3>
+<a href="#ORG-0002" title="Grupo WebTron">
+<p>
+Grupo WebTron</p>
+</a>
+<p />
+</center>
+<hr size="4" />
+<p />
+<h1 align="left">Table of contents</h1>
+<p />
+<table border="0" width="100%" class="TOC">
+<tr>
+<th align="left" valign="top">1 </th>
+<th align="left" valign="top" width="100%" colspan="3">
+<a href="#SEC-0001">
+Introducción</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top">2 </th>
+<th align="left" valign="top" width="100%" colspan="3">
+<a href="#SEC-0002">
+Participantes en el Proyecto</a>
+</th>
+</tr>
+<tr><td />
+<td align="left" valign="top">2.1 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0003">
+Organizaciones</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">2.2 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0004">
+Personas</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">3 </th>
+<th align="left" valign="top" width="100%" colspan="3">
+<a href="#SEC-0005">
+Descripción del Sistema Actual</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top">4 </th>
+<th align="left" valign="top" width="100%" colspan="3">
+<a href="#SEC-0006">
+Objetivos del Sistema</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top">5 </th>
+<th align="left" valign="top" width="100%" colspan="3">
+<a href="#SEC-0007">
+Catálogo de Requisitos del Sistema</a>
+</th>
+</tr>
+<tr><td />
+<td align="left" valign="top">5.1 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0008">
+Requisitos de Información</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">5.2 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0009">
+Requisitos de Interfaz de Usuario y Funcionales</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">5.2.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0010">
+Actores</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">5.2.2 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0011">
+Requisitos de Interfaz de Usuario</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">5.2.3 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0012">
+Requisitos Funcionales</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">5.3 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0013">
+Requistos No Funcionales</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">5.4 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0014">
+Reglas de Negocio</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">6 </th>
+<th align="left" valign="top" width="100%" colspan="3">
+<a href="#SEC-0015">
+Glosario de términos</a>
+</th>
+</tr>
+</table>
+<p />
+<hr size="4" />
+<p />
+<a name="SEC-0001" />
+<h1 align="left">1 
+Introducción</h1><a name="PRG-0001" />
+<p>Este documento presenta la elicitación de requisitos para un <a href="#GLO-0003" title="Un proyecto consiste en el resultado del trabajo que tienen que realizar un grupo de alumnos en la parte práctica de la asignatura. Los proyectos suelen estar disponibles online, incluso en uso por un cliente real.">proyecto</a> de visibilidad de la asignatura Gestión de Sistemas de Información, del Grado en Tecnologías Informáticas de la Universidad de Sevilla. El <a href="#GLO-0003" title="Un proyecto consiste en el resultado del trabajo que tienen que realizar un grupo de alumnos en la parte práctica de la asignatura. Los proyectos suelen estar disponibles online, incluso en uso por un cliente real.">proyecto</a> se centra en la construcción de un sitio web para dar mayor visibilidad a la asignatura y a los contenidos relacionados con la misma</p>
+<a name="SEC-0002" />
+<h1 align="left">2 
+Participantes en el Proyecto</h1><a name="SEC-0003" />
+<h2 align="left">2.1 
+Organizaciones</h2><a name="ORG-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Organization</th>
+<th align="left" valign="top" width="100%">
+Asignatura GSI</th>
+</tr>
+<tr>
+<th align="left" valign="top">Address</th>
+<td align="left" valign="top" colspan="1">Avda Reina Mercedes</td>
+</tr>
+<tr>
+<th align="left" valign="top">Telephone</th>
+<td align="left" valign="top" colspan="1">954623619</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fax</th>
+<td align="left" valign="top" colspan="1">PD</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ORG-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Organization</th>
+<th align="left" valign="top" width="100%">
+Grupo WebTron</th>
+</tr>
+<tr>
+<th align="left" valign="top">Address</th>
+<td align="left" valign="top" colspan="1">Calle Luis Montoto 23</td>
+</tr>
+<tr>
+<th align="left" valign="top">Telephone</th>
+<td align="left" valign="top" colspan="1">954449876</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fax</th>
+<td align="left" valign="top" colspan="1">PD</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0004" />
+<h2 align="left">2.2 
+Personas</h2><a name="STK-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Stakeholder</th>
+<th align="left" valign="top" width="100%">
+Joaquín Peña</th>
+</tr>
+<tr><th align="left" valign="top">Organization</th>
+<td align="left" valign="top">
+<a href="#ORG-0001">
+Asignatura GSI</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Role</th>
+<td align="left" valign="top" colspan="1">PD</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Is developer</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Is customer</th>
+<td align="left" valign="top">Yes</td>
+</tr>
+<tr><th align="left" valign="top">Is user</th>
+<td align="left" valign="top">Yes</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Stakeholder</th>
+<th align="left" valign="top" width="100%">
+Javier Troya</th>
+</tr>
+<tr><th align="left" valign="top">Organization</th>
+<td align="left" valign="top">
+<a href="#ORG-0001">
+Asignatura GSI</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Role</th>
+<td align="left" valign="top" colspan="1">PD</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Is developer</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Is customer</th>
+<td align="left" valign="top">Yes</td>
+</tr>
+<tr><th align="left" valign="top">Is user</th>
+<td align="left" valign="top">Yes</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Stakeholder</th>
+<th align="left" valign="top" width="100%">
+Álvaro Fernández</th>
+</tr>
+<tr><th align="left" valign="top">Organization</th>
+<td align="left" valign="top">
+<a href="#ORG-0002">
+Grupo WebTron</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Role</th>
+<td align="left" valign="top" colspan="1">PD</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Is developer</th>
+<td align="left" valign="top">Yes</td>
+</tr>
+<tr><th align="left" valign="top">Is customer</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Is user</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Stakeholder</th>
+<th align="left" valign="top" width="100%">
+Agustín Romero</th>
+</tr>
+<tr><th align="left" valign="top">Organization</th>
+<td align="left" valign="top">
+<a href="#ORG-0002">
+Grupo WebTron</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Role</th>
+<td align="left" valign="top" colspan="1">PD</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Is developer</th>
+<td align="left" valign="top">Yes</td>
+</tr>
+<tr><th align="left" valign="top">Is customer</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Is user</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="STK-0005" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Stakeholder</th>
+<th align="left" valign="top" width="100%">
+Sandra Sánchez</th>
+</tr>
+<tr><th align="left" valign="top">Organization</th>
+<td align="left" valign="top">
+<a href="#ORG-0002">
+Grupo WebTron</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Role</th>
+<td align="left" valign="top" colspan="1">PD</td>
+</tr>
+<tr><th align="left" valign="top" nowrap="1">Is developer</th>
+<td align="left" valign="top">Yes</td>
+</tr>
+<tr><th align="left" valign="top">Is customer</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr><th align="left" valign="top">Is user</th>
+<td align="left" valign="top">No</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0005" />
+<h1 align="left">3 
+Descripción del Sistema Actual</h1><a name="PRG-0002" />
+<p>El sistema actual es cerrado, en el sentido que solo los alumnos del curso actual y los profesores pueden acceder. Carece por tanto de mucha de la funcionalidad deseada, como poder exponer los contenidos de la asignatura a alumnos de otros grados o publicar eventos para que cualquier persona se pueda apuntar</p>
+<a name="SEC-0006" />
+<h1 align="left">4 
+Objetivos del Sistema</h1><a name="OBJ-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0001</th>
+<th align="left" valign="top" width="100%">
+Aumento de matriculados</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+aumentar el número de matriculados en la asignatura gracias a la difusión de contenidos de la misma</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjectives</th>
+<td align="left" valign="top">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="OBJ-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0002</th>
+<th align="left" valign="top" width="100%">
+Presitgio titulados</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+mejorar el prestigio de los titulados en TI de la US gracias a la difusión en la industria del software de los conocimientos que los alumnos adquieren en la asignatura</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjectives</th>
+<td align="left" valign="top">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0007" />
+<h1 align="left">5 
+Catálogo de Requisitos del Sistema</h1><a name="SEC-0008" />
+<h2 align="left">5.1 
+Requisitos de Información</h2><a name="IRQ-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0001</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Página Principal</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Joaquín Peña</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="2">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td colspan="2">
+    The system shall store the information corresponding to 
+<em>
+La página principal deberá contenter estos elementos (5,6).
+				</em>
+    More specifically:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Specific data</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0001" />
+Slider con imágenes
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0002" />
+4 elementos destacados enlazados a los contenidos principales de la asignatura: CMS, DMS, RSI, RSE
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0003" />
+Noticias de la asignatura: titular y resumen
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0004" />
+Eventos fuera del horario organizados en la asignatura: lugar, hora y titular
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0005" />
+Entradas de blog de la asignatura: título y resumen
+								(<em>
+Ninguno</em>)
+							</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Lifetime</th>
+<th align="left" valign="top">Average</th>
+<th align="left" valign="top">Maximum</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Simultaneous ocurrences</th>
+<th align="left" valign="top">Average</th>
+<th align="left" valign="top">Maximum</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="IRQ-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0002</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Menús</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0005">
+Sandra Sánchez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Javier Troya</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Joaquín Peña</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="2">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td colspan="2">
+    The system shall store the information corresponding to 
+<em>
+Los menús del portal serán (8):.
+				</em>
+    More specifically:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Specific data</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0006" />
+Página principal
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0007" />
+Programa de la asignatura
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0008" />
+Contenidos de GSI
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0009" />
+Proyectos (los proyectos deben contar con un submenú que los ordene por año y una sección especial para proyectos destacados)
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0010" />
+Noticias
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0011" />
+Blogs
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0012" />
+Eventos: contará con un submenú para calendario y otro para seminarios organizados fuera del horario de clase
+								(<em>
+Ninguno</em>)
+							</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Lifetime</th>
+<th align="left" valign="top">Average</th>
+<th align="left" valign="top">Maximum</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Simultaneous ocurrences</th>
+<th align="left" valign="top">Average</th>
+<th align="left" valign="top">Maximum</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="IRQ-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0003</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Estructura de la información</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="2">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td colspan="2">
+    The system shall store the information corresponding to 
+<em>
+Los contenidos de la asignatura se organizarán en teoría y laboratorio, y cada uno de ellos también podra corresponder a un tema  o tipo de sistema (CMS, DMS, RSI, RSE) (3):.
+				</em>
+    More specifically:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Specific data</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0013" />
+Noticias de interés
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0014" />
+Eventos
+								(<em>
+Ninguno</em>)
+							</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Lifetime</th>
+<th align="left" valign="top">Average</th>
+<th align="left" valign="top">Maximum</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Simultaneous ocurrences</th>
+<th align="left" valign="top">Average</th>
+<th align="left" valign="top">Maximum</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="IRQ-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0004</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Proyectos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0001" title="Portfolio de proyetctos">
+                                [UC-0001] 
+Portfolio de proyetctos</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td colspan="2">
+    The system shall store the information corresponding to 
+<em>
+a los proyectos de los alumnos de la asignatura, más específicamente (3,4):.
+				</em>
+    More specifically:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Specific data</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0015" />
+Título
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0016" />
+Descripción
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0017" />
+Logotipo
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0018" />
+Participantes en el <a href="#GLO-0003" title="Un proyecto consiste en el resultado del trabajo que tienen que realizar un grupo de alumnos en la parte práctica de la asignatura. Los proyectos suelen estar disponibles online, incluso en uso por un cliente real.">proyecto</a> enlazado a su perfil donde encontraremos una foto
+								(<em>
+Ninguno</em>)
+							</li>
+<li>
+<a name="DAT-0019" />
+Enlace al <a href="#GLO-0003" title="Un proyecto consiste en el resultado del trabajo que tienen que realizar un grupo de alumnos en la parte práctica de la asignatura. Los proyectos suelen estar disponibles online, incluso en uso por un cliente real.">proyecto</a> online
+								(<em>
+Ninguno</em>)
+							</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Lifetime</th>
+<th align="left" valign="top">Average</th>
+<th align="left" valign="top">Maximum</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Simultaneous ocurrences</th>
+<th align="left" valign="top">Average</th>
+<th align="left" valign="top">Maximum</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+<td>
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0009" />
+<h2 align="left">5.2 
+Requisitos de Interfaz de Usuario y Funcionales</h2><a name="SEC-0010" />
+<h3 align="left">5.2.1 
+Actores</h3><a name="ACT-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">ACT-0001</th>
+<th align="left" valign="top" width="100%">
+profesor/alumno</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    This actor represents
+<em>a los profesores y alumnos de GSI</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0011" />
+<h3 align="left">5.2.2 
+Requisitos de Interfaz de Usuario</h3><a name="FRQ-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0001</th>
+<th align="left" valign="top" width="100%">
+Fotos sliders</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+poder cambiar fácilmente las imágenes del slider sin necesidad de programación (6)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0002</th>
+<th align="left" valign="top" width="100%">
+Diseño gráfico</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+basarse en el esquema de colores de la US. De todos los esquemas de colores posibles, los clientes se decantan por el más claro (10)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0003</th>
+<th align="left" valign="top" width="100%">
+Página Principal</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+contar con una página principal donde se puedan colocar las siguientes secciones con esta estructura (6, 5):
+<br />
+<br />- Slider con imágenes destacadas de la asignatura
+<br />
+<br />- Bajo el slider deberán colocarse los 4 tipos de sistemas a cubrir enlazando a sus contenidos. Debajo, en dos columnas, se mostrarán:
+<br />-- Últimos proyectos de alumnos
+<br />-- Noticias de la asignatura
+<br />-- Últimas entradas de blog de información interesante
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0004</th>
+<th align="left" valign="top" width="100%">
+Integración con Redes Sociales</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+permitir la integración con Twitter y Facebook (7)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0012" />
+<h3 align="left">5.2.3 
+Requisitos Funcionales</h3><a name="FRQ-0005" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0005</th>
+<th align="left" valign="top" width="100%">
+Eventos fuera de clases</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#CRQ-0001" title="Publicación eventos">
+                                [CRQ-0001] 
+Publicación eventos</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+permitir la publicación de eventos gestionando los asistentes para asegurar que tiene suficiente audiencia. Para ello se deberá poder publicar una descripción y horario de celebración (5)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0006" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0006</th>
+<th align="left" valign="top" width="100%">
+Calendario de eventos de la asignatura</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+permitir la publicación de un calendario donde los profesores puedan indicar las fechas relevantes de la asignatura, como pueden ser: entregas de prácticas, fechas de exámenes, planificación de trabajos, etc. (se deduce de varios)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0007" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0007</th>
+<th align="left" valign="top" width="100%">
+Gestión de noticias</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#CRQ-0002" title="Noticias">
+                                [CRQ-0002] 
+Noticias</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+permitir añadir un tipo de artículo clasificado como noticias. A la hora de publicar noticias será necesario indicar el periodo de tiempo que la noticia estará activa (3)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0001</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Portfolio de proyetctos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Agustín Romero</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Javier Troya</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Joaquín Peña</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="2">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td colspan="2">
+    The system shall behave as described in the following
+
+    use case when
+<em>
+all finalizar la asignatura</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondition</th>
+<td align="left" valign="top" colspan="2">
+Se cuenta con todos los datos de los proyectos y se ha seleccionado los mejores y el usuario que introduce los datos (profesor o alumno) posee permisos para publicar proyectos</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Ordinary sequence</th>
+<th align="center" valign="top">Step</th>
+<th align="left" valign="top" width="100%">Action</th>
+</tr>
+<tr>
+<a name="STP-0020" />
+<td align="center" valign="top">1</td>
+<td>The
+     
+    system<em>
+solicita los datos del <a href="#GLO-0003" title="Un proyecto consiste en el resultado del trabajo que tienen que realizar un grupo de alumnos en la parte práctica de la asignatura. Los proyectos suelen estar disponibles online, incluso en uso por un cliente real.">proyecto</a>
+</em>
+                                (<em>
+Ninguno</em>)
+                            </td>
+</tr>
+<tr>
+<a name="STP-0021" />
+<td align="center" valign="top">2</td>
+<td>Actor<a href="#ACT-0001" title="This actor represents a los profesores y alumnos de GSI">
+profesor/alumno (ACT-0001)
+    </a>
+<em>
+indica los datos del <a href="#GLO-0003" title="Un proyecto consiste en el resultado del trabajo que tienen que realizar un grupo de alumnos en la parte práctica de la asignatura. Los proyectos suelen estar disponibles online, incluso en uso por un cliente real.">proyecto</a>
+</em>
+                                (<em>
+Ninguno</em>)
+                            </td>
+</tr>
+<tr>
+<a name="STP-0022" />
+<td align="center" valign="top">3</td>
+<td>The
+     
+    system<em>
+solicita un enlace para cada parte del <a href="#GLO-0003" title="Un proyecto consiste en el resultado del trabajo que tienen que realizar un grupo de alumnos en la parte práctica de la asignatura. Los proyectos suelen estar disponibles online, incluso en uso por un cliente real.">proyecto</a> o a una web principal y el logotipo del mismo</em>
+                                (<em>
+Ninguno</em>)
+                            </td>
+</tr>
+<tr>
+<a name="STP-0023" />
+<td align="center" valign="top">4</td>
+<td>Actor<a href="#ACT-0001" title="This actor represents a los profesores y alumnos de GSI">
+profesor/alumno (ACT-0001)
+    </a>
+<em>
+proporciona los datos</em>
+                                (<em>
+Ninguno</em>)
+                            </td>
+</tr>
+<tr>
+<a name="STP-0024" />
+<td align="center" valign="top">5</td>
+<td>The
+     
+    system<em>
+publica un portfolio de proyectos listados estos en una vista resumen usando el logotipo del mismo</em>
+                                (<em>
+Ninguno</em>)
+                            </td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondition</th>
+<td align="left" valign="top" colspan="2">
+PD</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Exceptions</th>
+<th align="center" valign="top">Step</th>
+<th align="left" valign="top" width="100%">Action</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Performance</th>
+<th align="center" valign="top">Step</th>
+<th align="left" valign="top" width="100%">Maximum time</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Expected frequency</th>
+<td colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0008" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0008</th>
+<th align="left" valign="top" width="100%">
+Integración con redes sociales</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Álvaro Fernández</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0002">
+Javier Troya</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Joaquín Peña</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+permitir la integración con Twitter y Facebook. Se podrá hacer me gusta (de Facebook) sobre cualquier contenido de la asignatura, así como compartir los mismo vía la cuenta de Twitter del usuario. Además deberá mostrar los hilos sociales de las cuentas de la asignatura (7).</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0013" />
+<h2 align="left">5.3 
+Requistos No Funcionales</h2><a name="NFR-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">NFR-0001</th>
+<th align="left" valign="top" width="100%">
+Sevidores</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+correr sobre PHP 3.0 o superior (11)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="NFR-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">NFR-0002</th>
+<th align="left" valign="top" width="100%">
+Edición sencilla</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+permitir la edición de documentos online con la mayor riqueza a la hora de editar, poner tablas, cambiar colores, etc. (se deduce y el cliente confirma)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="NFR-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">NFR-0003</th>
+<th align="left" valign="top" width="100%">
+Claridad</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+    The system shall
+<em>
+contar con páginas con el mínimo de información posible (se deduce y el cliente confirma)</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0014" />
+<h2 align="left">5.4 
+Reglas de Negocio</h2><a name="CRQ-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">CRQ-0001</th>
+<th align="left" valign="top" width="100%">
+Publicación eventos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+	The information stored by the system shall satisfy the following constraint:
+<em>
+Solamente el coordinador de la asignatura puede publicar eventos</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="CRQ-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">CRQ-0002</th>
+<th align="left" valign="top" width="100%">
+Noticias</th>
+</tr>
+<tr>
+<th align="left" valign="top">Version</th>
+<td align="left" valign="top">1.0 
+			( 03/10/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Authors</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Sandra Sánchez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Sources</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+Joaquín Peña</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencies</th>
+<td align="left" valign="top" colspan="1">None</td>
+</tr>
+<tr>
+<th align="left" valign="top">Description</th>
+<td align="left" valign="top">
+	The information stored by the system shall satisfy the following constraint:
+<em>
+Las noticias a las que no se ha accedido en el último año, pasarán a un listado de noticias antiguas</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importance</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgency</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Status</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Stability</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>TBD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comments</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0015" />
+<h1 align="left">6 
+Glosario de términos</h1><a name="GLO-0003" />
+<p align="left">
+<b> Proyecto:</b>Un <a href="#GLO-0003" title="Un proyecto consiste en el resultado del trabajo que tienen que realizar un grupo de alumnos en la parte práctica de la asignatura. Los proyectos suelen estar disponibles online, incluso en uso por un cliente real.">proyecto</a> consiste en el resultado del trabajo que tienen que realizar un grupo de alumnos en la parte práctica de la asignatura. Los proyectos suelen estar disponibles online, incluso en uso por un cliente real.</p>
+</body>
+</html>
